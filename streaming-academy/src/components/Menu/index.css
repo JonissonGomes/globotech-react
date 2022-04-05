@@ -28,10 +28,13 @@
 }
 
 .nav{
-    margin:70px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-decoration:none;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style:none;
-    color:#f9ce5c;
+    color:#ffbd08;
     cursor:pointer;
     font-size:20px;
 }
