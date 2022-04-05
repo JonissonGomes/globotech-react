@@ -57,11 +57,11 @@
     color: #e88634;
     cursor:pointer;
     font-size:20px;
-    transition-duration: 200ms;
+    transition-duration: 150ms;
 }
 
 .navActive:hover {
     color: #ffbd08;
     text-decoration: none;
-    transition-duration: 200ms;
+    transition-duration: 150ms;
 }
