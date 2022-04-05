@@ -6,7 +6,7 @@ export const Home = () => {
       name: "Basic",
       description:
         "Este é um plano voltado para pessoas que não consomem tanto conteúdo da streaming, porém quer estar por dentro dos assuntos",
-      sponsors: "Assista o quanto quiser. Sem anúncios",
+      advertisement: "Assista o quanto quiser. Com 2 anúncio a cada 20 minutos",
       recomendation: "Recomendações especialmente para você.",
       cancellationTime: "15 dias",
       valor: 15,
@@ -18,7 +18,7 @@ export const Home = () => {
       name: "Premium",
       description:
         "Este é um plano voltado para pessoas que consomem tanto conteúdo da streaming, porém está com pouco tempo mas quer ficar por dentro dos assuntos",
-      sponsors: "Assista o quanto quiser. Sem anúncios",
+      advertisement: "Assista o quanto quiser. Com 1 anúncio a cada 30 minutos",
       recomendation: "Recomendações especialmente para você.",
       cancellationTime: "7 dias",
       valor: 35,
@@ -29,8 +29,8 @@ export const Home = () => {
     {
       name: "Premium+",
       description:
-        "Este é um plano voltado para pessoas que não podem ficar longe da streamins",
-      sponsors: "Assista o quanto quiser. Sem anúncios",
+        "Este é um plano voltado para pessoas que não podem ficar longe da telinhas e precisa estar conectando o tempo todo para assistir suas séries e filmes.",
+      advertisement: "Assista o quanto quiser. Sem anúncios",
       recomendation: "Recomendações especialmente para você.",
       cancellationTime: "Qualquer momento",
       valor: 50,
@@ -58,7 +58,12 @@ export const Home = () => {
 
               <p className={"labelTopics"}>
                 <p className="labelTitle">Anúncios:</p>
-                <p className={"labelContent"}>{plan.sponsors}</p>
+                <p className={"labelContent"}>{plan.advertisement}</p>
+              </p>
+
+              <p className={"labelTopics"}>
+                <p className="labelTitle">Qualidade de vídeo:</p>
+                <p className={"labelContent"}>{plan.resolution}</p>
               </p>
 
               <p className={"labelTopics"}>
