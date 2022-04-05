@@ -6,7 +6,7 @@ import {
   Routes,
 } from "react-router-dom";
 import { Home } from "./pages/Home/";
-// import { Movies } from "./pages/Movies/";
+import { Movies } from "./pages/Movies/";
 import { Series } from "./pages/Series/";
 import { Footer } from "./pages/Footer/";
 import {Menu} from "./components/Menu"
@@ -20,7 +20,7 @@ function App() {
         <Menu/>
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            {/* <Route path="/filmes" element={<Movies/>}></Route> */}
+            <Route path="/movies" element={<Movies/>}></Route>
             <Route path="/series" element={<Series/>}></Route>
             <Route path="/contatos" element={<Footer/>}></Route>
           </Routes>

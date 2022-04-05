@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    color: #f9ce5c;
+    margin: 0;
+}
+
+.serie {
+    margin-bottom: 30px;
+}
+
+.serie h2 {
+    margin: 0px 0px 0px 30px;
+}
+
+.listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+
+.item {
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+.serie img {
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease-in-out 0.4s;
+}
+
+.serie img:hover {
+    transform: scale(1);
+}
