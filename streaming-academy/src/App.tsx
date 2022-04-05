@@ -8,7 +8,7 @@ import {
 import { Home } from "./pages/Home/";
 import { Movies } from "./pages/Movies/";
 import { Series } from "./pages/Series/";
-import { Footer } from "./pages/Footer/";
+import { Footer } from "./components/Footer";
 import {Menu} from "./components/Menu"
 
 function App() {
