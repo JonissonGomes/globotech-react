@@ -35,6 +35,7 @@
 }
 
 .containerInformations {
+    height: 34vh;
     margin-top: 0;
     background-color: rgb(253, 255, 240);
     padding-top: 1%;
@@ -73,9 +74,18 @@
 
 .labelPrice {
     color: orange;
+    height: 6px;
     font-weight: 700;
     font-size: 18pt;
     margin-bottom: 0;
+}
+
+.contentPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    height: 8vh;
 }
 
 .cifra {
@@ -91,11 +101,6 @@
     margin-left: 2%;
 }
 
-.contentPrice {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .buttonGeneric {
     background-color: orange;
