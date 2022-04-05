@@ -6,33 +6,162 @@
     display: flex;
     width: 100%;
     margin-top: 2%;
-    margin-left: 12%;
-    margin-right: 12%;
     align-content: center;
-}
-
-.labelTitlePlan {
-    font-size: 24pt;
-    color: hsl(39, 100%, 48%);
+    margin-bottom: 0;
+    justify-content: center;
 }
 
 .containerBorder {
-    width: 400px;
-    border: 1px solid black;
-    margin-left: 4%;
+    margin-top: 0;
+    width: 480px;
+    height: 680px;
+    border: 1px solid orange;
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-right: 2%;
     padding-bottom: 2%;
+    transition-duration: 150ms;
 }
+
+.containerBorder:hover {
+    width: 480px;
+    height: 680px;
+    background-color: rgb(255, 245, 227);
+    border: 1px solid rgb(255, 168, 6);
+    border-radius: 8px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+    transition-duration: 150ms;
+}
+
+.labelTitlePlan {
+    font-size: 28pt;
+    color: hsl(39, 100%, 48%);
+    cursor: default;
+}
+
+.describeText {
+    width: 16vw;
+    height: 8vh;
+    text-align: left;
+    font-size: 11pt;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-left: 6%;
+    color: rgb(151, 157, 172);
+    cursor: default;
+}
+
+.containerInformations {
+    height: 38vh;
+    margin-top: 1%;
+    background-color: rgb(255, 248, 240);
+    padding-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    border-radius: 8px;
+    cursor: default;
+}
+
+.labelTopics {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2%;
+    color: hsl(39, 100%, 48%);
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+    cursor: default;
+}
+
+.labelTitle {
+    width: 140px;
+    padding-right: 2%;
+    text-align: left;
+    font-size: 12pt;
+    margin-bottom: 0;
+    cursor: default;
+} 
+
+.labelContent {
+    color: rgb(85, 95, 121);
+    font-weight: 400;
+    text-align: left;
+    cursor: default;
+}
+
+.labelPrice {
+    color: orange;
+    height: 6px;
+    font-weight: 700;
+    font-size: 18pt;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+.contentPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    height: 8vh;
+    cursor: default;
+}
+
+.cifra {
+    color: orange;
+    font-weight: 700;
+    font-size: 18pt;
+    cursor: default;
+}
+
+.price {
+    font-size: 28pt;
+    font-weight: 400;
+    color: rgb(151, 157, 172);
+    margin-left: 2%;
+    cursor: default;
+}
+
 
 .buttonGeneric {
     background-color: orange;
     width: 120px;
-    padding: 1px 4px 1px 4px;
-    margin-left: 36%;
+    height: 40px;
+    margin-left: 38%;
     margin-right: 36%;
     border-radius: 10px;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.buttonGeneric:hover {
+    background-color: rgb(253, 255, 240);
+    width: 120px;
+    height: 40px;
+    margin-left: 38%;
+    margin-right: 36%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 300ms;
+    cursor: pointer;
 }
 
 .buttonText {
     font-weight: 700;
     color: white;
+    padding: 10px;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.buttonText:hover {
+    color: orange;
+    cursor: pointer;
+    transition-duration: 300ms;
+    cursor: pointer;
 }

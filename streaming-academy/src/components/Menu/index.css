@@ -3,19 +3,65 @@
 .container {
     display:flex;
     justify-content:space-between;
-    padding:50px 50px 50px 150px;
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
     align-items:center;
 }
 
+.logoContainer {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoImage {
+    width: 90px;
+    height: 60px;
+}
+
+.titleLogo {
+    margin-left: 2%;
+    color: #e88634;
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .nav{
-    margin:70px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-decoration:none;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style:none;
-    color:#f9ce5c;
+    color:#ffbd08;
     cursor:pointer;
     font-size:20px;
+    transition-duration: 150ms;
 }
+
 .nav:hover{
     color:#e88634;
+    transition-duration: 150ms;
+}
+
+.navActive {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style:none;
+    color: #e88634;
+    cursor:pointer;
+    font-size:20px;
+    transition-duration: 150ms;
+}
+
+.navActive:hover {
+    color: #ffbd08;
+    text-decoration: none;
+    transition-duration: 150ms;
 }
