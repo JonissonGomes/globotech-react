@@ -7,6 +7,25 @@
     align-items:center;
 }
 
+.logoContainer {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoImage {
+    width: 90px;
+    height: 60px;
+}
+
+.titleLogo {
+    margin-left: 2%;
+    color: #e88634;
+    font-size: 20pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .nav{
     margin:70px;
