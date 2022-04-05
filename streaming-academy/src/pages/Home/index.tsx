@@ -42,7 +42,7 @@ export const Home = () => {
   return (
     <>
       <div>
-        <h1 className={"titleHome"}> Straming Dock</h1>
+        <h1 className={"titleHome"}> Escolha o plano que ajusta no seu bolso: </h1>
       </div>
 
       <div className={"containerMain"}>
@@ -50,16 +50,37 @@ export const Home = () => {
           <div className={"containerBorder"}>
             <h1 className={"labelTitlePlan"}>{plan.name}</h1>
             <p className={"describeText"}>{plan.description}</p>
-            <p className={"labelTopics"}>
-              Quantidade de telas:
-              <p className={"labelContent"}>{plan.numberOfScreens}</p>
-            </p>
-            <p className={"labelContent"}>
-              Tipo de plano:
-              <p>{plan.type}</p>
-            </p>
-            <p className={"labelTopics"}>Valor</p>
-            <p className={"price"}>R$ {plan.valor},00</p>
+            <section className={'containerInformations'}>
+              <p className={"labelTopics"}>
+                <p className="labelTitle">Quantidade de telas:</p>
+                <p className={"labelContent"}>{plan.numberOfScreens} telas simultâneas</p>
+              </p>
+
+              <p className={"labelTopics"}>
+                <p className="labelTitle">Anúncios:</p>
+                <p className={"labelContent"}>{plan.sponsors}</p>
+              </p>
+
+              <p className={"labelTopics"}>
+                <p className="labelTitle">Recomendações de filmes/séries:</p>
+                <p className={"labelContent"}>{plan.recomendation}</p>
+              </p>
+
+              <p className={"labelTopics"}>
+                <p className="labelTitle">Prazo de cancelamento:</p>
+                <p className={"labelContent"}>{plan.cancellationTime}</p>
+              </p>
+
+              <p className={"labelTopics"}>
+                <p className="labelTitle">Tipo de plano:</p>
+                <p className={"labelContent"}>{plan.type}</p>
+              </p>
+            </section>
+            <p className={"labelPrice"}>A partir</p>
+            <section className={"contentPrice"}>
+                <p className={'cifra'}>R$ </p>
+                <p className={"price"}>{plan.valor},00</p>
+            </section>
 
             <section className={"buttonGeneric"}>
               <p className={"buttonText"}>Ver detalhes </p>
