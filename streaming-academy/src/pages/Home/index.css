@@ -8,6 +8,7 @@
     margin-top: 2%;
     align-content: center;
     margin-bottom: 0;
+    justify-content: center;
 }
 
 .containerBorder {
@@ -16,17 +17,20 @@
     height: 680px;
     border: 1px solid orange;
     border-radius: 8px;
-    margin-left: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding-bottom: 2%;
     transition-duration: 150ms;
 }
 
 .containerBorder:hover {
     width: 480px;
+    height: 680px;
     background-color: rgb(255, 245, 227);
     border: 1px solid rgb(173, 113, 0);
     border-radius: 8px;
-    margin-left: 6%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding-bottom: 2%;
     transition-duration: 150ms;
 }
@@ -45,7 +49,7 @@
     font-weight: 500;
     margin-bottom: 0;
     margin-left: 6%;
-    color: darkslategrey;
+    color: rgb(151, 157, 172);
     cursor: default;
 }
 
@@ -84,7 +88,7 @@
 } 
 
 .labelContent {
-    color: darkslategrey;
+    color: rgb(85, 95, 121);
     font-weight: 400;
     text-align: left;
     cursor: default;
@@ -118,7 +122,7 @@
 .price {
     font-size: 28pt;
     font-weight: 400;
-    color: darkslategrey;
+    color: rgb(151, 157, 172);
     margin-left: 2%;
     cursor: default;
 }
