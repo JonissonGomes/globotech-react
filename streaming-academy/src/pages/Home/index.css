@@ -31,6 +31,7 @@
 .labelTitlePlan {
     font-size: 28pt;
     color: hsl(39, 100%, 48%);
+    cursor: default;
 }
 
 
@@ -43,6 +44,7 @@
     margin-bottom: 0;
     margin-left: 6%;
     color: darkslategrey;
+    cursor: default;
 }
 
 .containerInformations {
@@ -55,6 +57,7 @@
     margin-right: 4%;
     margin-bottom: 0;
     border-radius: 8px;
+    cursor: default;
 }
 
 .labelTopics {
@@ -67,6 +70,7 @@
     font-weight: 600;
     width: 100%;
     text-align: left;
+    cursor: default;
 }
 
 .labelTitle {
@@ -75,12 +79,14 @@
     text-align: left;
     font-size: 12pt;
     margin-bottom: 0;
+    cursor: default;
 } 
 
 .labelContent {
     color: darkslategrey;
     font-weight: 400;
     text-align: left;
+    cursor: default;
 }
 
 .labelPrice {
@@ -89,6 +95,7 @@
     font-weight: 700;
     font-size: 18pt;
     margin-bottom: 0;
+    cursor: default;
 }
 
 .contentPrice {
@@ -97,12 +104,14 @@
     align-items: center;
     margin-top: 2%;
     height: 8vh;
+    cursor: default;
 }
 
 .cifra {
     color: orange;
     font-weight: 700;
     font-size: 18pt;
+    cursor: default;
 }
 
 .price {
@@ -110,6 +119,7 @@
     font-weight: 400;
     color: darkslategrey;
     margin-left: 2%;
+    cursor: default;
 }
 
 
@@ -121,6 +131,7 @@
     margin-right: 36%;
     border-radius: 10px;
     transition-duration: 200ms;
+    cursor: pointer;
 }
 
 .buttonGeneric:hover {
@@ -132,6 +143,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition-duration: 300ms;
+    cursor: pointer;
 }
 
 .buttonText {
@@ -139,10 +151,12 @@
     color: white;
     padding: 10px;
     transition-duration: 200ms;
+    cursor: pointer;
 }
 
 .buttonText:hover {
     color: orange;
     cursor: pointer;
     transition-duration: 300ms;
+    cursor: pointer;
 }
