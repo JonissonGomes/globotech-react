@@ -11,16 +11,25 @@
     align-content: center;
 }
 
+.containerBorder {
+    width: 400px;
+    border: 1px solid orange;
+    border-radius: 8px;
+    margin-left: 4%;
+    padding-bottom: 2%;
+}
+
 .labelTitlePlan {
     font-size: 24pt;
     color: hsl(39, 100%, 48%);
 }
 
-.containerBorder {
-    width: 400px;
-    border: 1px solid black;
-    margin-left: 4%;
-    padding-bottom: 2%;
+.describeText {
+    width: 18.4vw;
+    height: 10vh;
+    text-align: left;
+    font-size: 11pt;
+    margin-left: 6%;
 }
 
 .buttonGeneric {
