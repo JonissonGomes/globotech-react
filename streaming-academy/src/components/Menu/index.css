@@ -1,0 +1,21 @@
+
+
+.container {
+    display:flex;
+    justify-content:space-between;
+    padding:50px 50px 50px 150px;
+    align-items:center;
+}
+
+
+.nav{
+    margin:70px;
+    text-decoration:none;
+    list-style:none;
+    color:#f9ce5c;
+    cursor:pointer;
+    font-size:20px;
+}
+.nav:hover{
+    color:#e88634;
+}
