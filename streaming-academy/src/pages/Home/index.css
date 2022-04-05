@@ -7,10 +7,13 @@
     width: 100%;
     margin-top: 2%;
     align-content: center;
+    margin-bottom: 0;
 }
 
 .containerBorder {
+    margin-top: 0;
     width: 480px;
+    height: 680px;
     border: 1px solid orange;
     border-radius: 8px;
     margin-left: 6%;
@@ -34,10 +37,9 @@
     cursor: default;
 }
 
-
 .describeText {
-    width: 18.4vw;
-    height: 10vh;
+    width: 16vw;
+    height: 8vh;
     text-align: left;
     font-size: 11pt;
     font-weight: 500;
@@ -49,7 +51,7 @@
 
 .containerInformations {
     height: 38vh;
-    margin-top: 0;
+    margin-top: 1%;
     background-color: rgb(255, 248, 240);
     padding-top: 1%;
     margin-left: 4%;
