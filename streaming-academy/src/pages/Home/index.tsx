@@ -6,7 +6,10 @@ export const Home = () => {
         {
             name: 'Basic',
             description: 'Este é um plano voltado para pessoas que não consomem tanto conteúdo da streaming, porém quer estar por dentro dos assuntos',
-            valor: 15.00,
+            sponsors: 'Assista o quanto quiser. Sem anúncios',
+            recomendation: 'Recomendações especialmente para você.',
+            cancellationTime: '15 dias',
+            valor: 15,
             numberOfScreens: 2,
             type: 'Mensal',
             resolution: '480p'
@@ -14,7 +17,10 @@ export const Home = () => {
         {
             name: 'Premium',
             description: 'Este é um plano voltado para pessoas que consomem tanto conteúdo da streaming, porém está com pouco tempo mas quer ficar por dentro dos assuntos',
-            valor: 35.00,
+            sponsors: 'Assista o quanto quiser. Sem anúncios',
+            recomendation: 'Recomendações especialmente para você.',
+            cancellationTime: '7 dias',
+            valor: 35,
             numberOfScreens: 3,
             type: 'Mensal/Anual',
             resolution: '720p'
@@ -22,8 +28,10 @@ export const Home = () => {
         {
             name: 'Premium+',
             description: 'Este é um plano voltado para pessoas que não podem ficar longe da streamins',
-
-            valor: 50.00,
+            sponsors: 'Assista o quanto quiser. Sem anúncios',
+            recomendation: 'Recomendações especialmente para você.',
+            cancellationTime: 'Qualquer momento',
+            valor: 50,
             numberOfScreens: 4,
             type: 'Anual',
             resolution: '1080p'
