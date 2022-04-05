@@ -9,7 +9,7 @@ export const Menu = () => {
         </div>
         <nav className='menu-nav'>
         <Link className='nav' to="/">Home</Link>
-        <Link className='nav' to="/filmes">Filmes</Link>
+        <Link className='nav' to="/movies">Filmes</Link>
         <Link className='nav'to="/series">Series</Link>
         <Link className='nav' to="/contato">Contatos</Link>
         </nav>
