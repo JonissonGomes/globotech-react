@@ -6,43 +6,127 @@
     display: flex;
     width: 100%;
     margin-top: 2%;
-    margin-left: 12%;
-    margin-right: 12%;
     align-content: center;
 }
 
 .containerBorder {
-    width: 400px;
+    width: 480px;
     border: 1px solid orange;
     border-radius: 8px;
-    margin-left: 4%;
+    margin-left: 6%;
     padding-bottom: 2%;
 }
 
 .labelTitlePlan {
-    font-size: 24pt;
+    font-size: 28pt;
     color: hsl(39, 100%, 48%);
 }
+
 
 .describeText {
     width: 18.4vw;
     height: 10vh;
     text-align: left;
     font-size: 11pt;
+    font-weight: 500;
+    margin-bottom: 0;
     margin-left: 6%;
     color: darkslategrey;
+}
+
+.containerInformations {
+    margin-top: 0;
+    background-color: rgb(253, 255, 240);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 0;
+    border-radius: 8px;
+}
+
+.labelTopics {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2%;
+    color: hsl(39, 100%, 48%);
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+}
+
+.labelTitle {
+    width: 140px;
+    padding-right: 2%;
+    text-align: left;
+    font-size: 12pt;
+    margin-bottom: 0;
+} 
+
+.labelContent {
+    color: darkslategrey;
+    font-weight: 400;
+    text-align: left;
+}
+
+.labelPrice {
+    color: orange;
+    font-weight: 700;
+    font-size: 18pt;
+    margin-bottom: 0;
+}
+
+.cifra {
+    color: orange;
+    font-weight: 700;
+    font-size: 18pt;
+}
+
+.price {
+    font-size: 28pt;
+    font-weight: 400;
+    color: darkslategrey;
+    margin-left: 2%;
+}
+
+.contentPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttonGeneric {
     background-color: orange;
     width: 120px;
-    padding: 1px 4px 1px 4px;
+    height: 40px;
     margin-left: 36%;
     margin-right: 36%;
     border-radius: 10px;
+    transition-duration: 200ms;
+}
+
+.buttonGeneric:hover {
+    background-color: rgb(253, 255, 240);
+    width: 120px;
+    height: 40px;
+    margin-left: 36%;
+    margin-right: 36%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 300ms;
 }
 
 .buttonText {
     font-weight: 700;
     color: white;
+    padding: 10px;
+    transition-duration: 200ms;
+}
+
+.buttonText:hover {
+    color: orange;
+    cursor: pointer;
+    transition-duration: 300ms;
 }
