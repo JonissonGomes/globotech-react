@@ -13,8 +13,8 @@ export const Menu = () => {
                 setMenuActive('home')
                 break;
 
-            case 'filmes':
-                setMenuActive('filmes')
+            case 'movies':
+                setMenuActive('movies')
                 break;
 
             case 'series':
@@ -40,10 +40,10 @@ export const Menu = () => {
                 <Link className='nav' to="/" onClick={ e => menuActivity('home')}>Home</Link>
             }
 
-            {menuActive === 'filmes' ? 
-                <Link className='navActive' to="/filmes" onClick={ e => menuActivity('filmes')}>Filmes</Link>
+            {menuActive === 'movies' ? 
+                <Link className='navActive' to="/movies" onClick={ e => menuActivity('movies')}>Filmes</Link>
                 : 
-                <Link className='nav' to="/filmes" onClick={ e => menuActivity('filmes')}>Filmes</Link>
+                <Link className='nav' to="/movies" onClick={ e => menuActivity('movies')}>Filmes</Link>
             } 
 
             {menuActive === 'series' ? 
