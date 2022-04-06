@@ -14,10 +14,13 @@
   text-decoration: none;
   color: #e88634;
   margin-top: 20px;
- 
 
 }
 .photo{
   width: 200px;
   border-radius: 50%;
+
+}
+.photo:hover{
+filter: contrast(120%);
 }
