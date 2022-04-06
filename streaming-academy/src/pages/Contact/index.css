@@ -1,0 +1,23 @@
+.title{
+  text-align: left;
+  margin-left: 10%;
+  color: orange;
+}
+.container-contacts{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.contacts{
+  text-decoration: none;
+  color: #e88634;
+  margin-top: 20px;
+ 
+
+}
+.photo{
+  width: 200px;
+  border-radius: 50%;
+}
