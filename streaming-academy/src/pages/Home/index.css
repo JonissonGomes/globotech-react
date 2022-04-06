@@ -14,12 +14,15 @@
     border: 1px solid orange;
     border-radius: 8px;
     margin: 2%;
-    transition-duration: 150ms;
+    transform: scale(0.9);
+    transition: all ease-in-out 0.4s;
 }
 
 .containerBorder:hover {
     background-color: rgb(255, 245, 227);
     border: 1px solid rgb(255, 168, 6);
+    transform: scale(1);
+  
 }
 
 .labelTitlePlan {
