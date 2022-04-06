@@ -26,7 +26,7 @@
     margin-left: 2%;
     color: #e88634;
     font-size: 20pt;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
 }
 
 .nav{
@@ -34,7 +34,6 @@
     margin-right: 10px;
     text-decoration:none;
     font-weight: 600;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style:none;
     color:#ffbd08;
     cursor:pointer;
@@ -50,9 +49,10 @@
 .navActive {
     margin-left: 10px;
     margin-right: 10px;
-    text-decoration: underline;
+    padding-bottom: 3px;
+    border-bottom:solid 1px #e88634;
+    text-decoration: none;
     font-weight: 600;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style:none;
     color: #e88634;
     cursor:pointer;
