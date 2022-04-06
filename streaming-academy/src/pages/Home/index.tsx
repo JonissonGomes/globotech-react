@@ -81,12 +81,11 @@ export const Home = () => {
                 <p className={"labelContent"}>{plan.type}</p>
               </p>
             </section>
-            <p className={"labelPrice"}>A partir</p>
-            <section className={"contentPrice"}>
-                <p className={'cifra'}>R$ </p>
-                <p className={"price"}>{plan.valor},00</p>
-            </section>
-
+              <section className={"contentPrice"}>
+                <p className={"labelPrice"}>A partir</p>
+                  <p className={'cifra'}>R$ </p>
+                  <p className={"price"}>{plan.valor},00</p>
+              </section>
             <section className={"buttonGeneric"}>
               <p className={"buttonText"}>Ver detalhes </p>
             </section>
