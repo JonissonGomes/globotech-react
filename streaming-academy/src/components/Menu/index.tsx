@@ -34,29 +34,14 @@ export const Menu = () => {
             <h2 className={'titleLogo'}>Straming Dock</h2>
         </a>
         <nav className='menu-nav'>
-            {menuActive === 'home' ? 
-                <Link className='navActive' to="/" onClick={ e => menuActivity('home')}>Home</Link>
-                :
-                <Link className='nav' to="/" onClick={ e => menuActivity('home')}>Home</Link>
-            }
-
-            {menuActive === 'movies' ? 
-                <Link className='navActive' to="/movies" onClick={ e => menuActivity('movies')}>Filmes</Link>
-                : 
-                <Link className='nav' to="/movies" onClick={ e => menuActivity('movies')}>Filmes</Link>
-            } 
-
-            {menuActive === 'series' ? 
-                <Link className='navActive'to="/series" onClick={ e => menuActivity('series')}>Series</Link>
-                :
-                <Link className='nav'to="/series" onClick={ e => menuActivity('series')}>Series</Link>
-            }
-
-            {menuActive === 'contatos' ? 
-                <Link className='navActive' to="/contato" onClick={ e => menuActivity('contatos')}>Contatos</Link>
-                :
-                <Link className='nav' to="/contato" onClick={ e => menuActivity('contatos')}>Contatos</Link>
-            }
+                <Link className={menuActive === 'home' ? 'navActive' : 'nav'} to="/" onClick={ e => menuActivity('home')}>Home</Link>   
+                
+                <Link className={menuActive=== 'movies' ? 'navActive' :'nav'} to="/movies" onClick={ e => menuActivity('movies')}>Filmes</Link>
+               
+                <Link className={menuActive=== 'series' ? 'navActive' :'nav'}to="/series" onClick={ e => menuActivity('series')}>Series</Link>
+            
+                <Link className={menuActive==='contatos' ? 'navActive' :'nav'} to="/contatos" onClick={ e => menuActivity('contatos')}>Contatos</Link>
+                
         </nav>
     </div>
   
